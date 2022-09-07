@@ -1,0 +1,22 @@
+@import './utils/vars';  //змінні
+@import './utils/hidden'; 
+@import './utils/placeholders'; //міксини
+
+@import './components/reset'; //загальні скидання стилів
+@import './components/common'; //загальні стилі
+@import './components/container'; 
+
+// секції
+@import './components/header'; 
+@import './components/hero'; 
+@import './components/benefits'; 
+@import './components/work'; 
+@import './components/team'; 
+@import './components/clients'; 
+@import './components/footer'; 
+@import './components/portfolio'; 
+@import './components/modal'; 
+@import './components/burger'; 
+
+
+
