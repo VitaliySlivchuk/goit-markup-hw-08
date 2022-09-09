@@ -2,7 +2,6 @@
   --main-color: #212121;
   --second-color: #757575;
   --active-color: #2196f3;
-  --active-color: #050606;
   --gradient-bg: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -607,6 +606,11 @@ a {
 .client__link:hover, .client__link:focus {
   border: 1px solid #2196f3;
 }
+@media screen and (min-width: 480px) {
+  .client__link {
+    width: 210px;
+  }
+}
 @media screen and (min-width: 768px) {
   .client__link {
     width: 226px;
@@ -615,11 +619,6 @@ a {
 @media screen and (min-width: 1200px) {
   .client__link {
     width: 170px;
-  }
-}
-@media screen and (min-width: 480px) {
-  .client__link {
-    width: 210px;
   }
 }
 

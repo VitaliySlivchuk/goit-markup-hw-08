@@ -27,15 +27,16 @@
   &:focus {
   border: 1px solid #2196f3;
 }
+  @include mob {
+      width: 210px;
+  }
   @include tab {
       width: 226px;
   }
   @include desc {
       width: 170px;
   }
-    @include mob {
-      width: 210px;
-  }
+
 }
 .client__icon {
   fill: #afb1b8;
